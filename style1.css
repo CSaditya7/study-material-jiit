@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.material-link {
+    display: block;
+    color: blue;
+    margin: 5px 0;
+    text-decoration: none;
+}
+
+.material-link:hover {
+    text-decoration: underline;
+}
