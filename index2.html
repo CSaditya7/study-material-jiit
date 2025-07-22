@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Study Materials</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+   body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f0f5;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .dark-mode {
+      background-color: #121212;
+      color: #f5f5f5;
+    }
+
+    /* Container */
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 30px;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+      transition: background-color 0.3s;
+    }
+
+    .dark-mode .container {
+      background-color: #1e1e1e;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05);
+    }
+
+    /* Headings */
+    h1 {
+      text-align: center;
+      color: #4B0082;
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #6a1b9a;
+      margin-top: 30px;
+      font-size: 1.5rem;
+      border-left: 4px solid #6a1b9a;
+      padding-left: 10px;
+    }
+
+    /* Links */
+    a {
+      display: inline-block;
+      margin: 6px 0;
+      color: #007bff;
+      text-decoration: none;
+      font-weight: 600;
+      font-family: 'Courier New', Courier, monospace;
+      transition: all 0.3s ease-in-out;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #0056b3;
+      transform: translateX(4px);
+    }
+
+    /* Toggle Button */
+    .dark-toggle {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background-color: #6a1b9a;
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .dark-toggle:hover {
+      background-color: #4b0082;
+    }
+
+    /* Contribute Section */
+    .contribute p {
+      margin-top: 10px;
+    }
+  </style>
+   
+</head>
+<body>
+
+  <button class="dark-toggle" onclick="toggleDarkMode()">🌓 Toggle Dark Mode</button>
+
+  <div class="container">
+    <h1>📚 Study Materials Hub</h1>
+
+    <div>
+      <h2>Semester 1</h2>
+      <a href="https://drive.google.com/drive/folders/1cCAqxL2a1hv2Fnv35gy51SDQcGuOoTlN?usp=drive_link" target="_blank">Maths-1</a><br>
+      <a href="https://drive.google.com/drive/folders/1cAv0aq5g34mvYlq8rBwEAIGNRMqcZqYA?usp=drive_link" target="_blank">Physics-1</a><br>
+      <a href="https://drive.google.com/drive/folders/1cCh_rIqiX7_ZND8IH5GC0yBx_S-8lyvD?usp=drive_link" target="_blank">Basic Electronics</a><br>
+      <a href="https://drive.google.com/drive/folders/14imeqZqI6aUJyw0hoFOXHp35WQayQaoQ?usp=drive_link" target="_blank">English</a><br>
+      <a href="https://drive.google.com/drive/folders/1cHqE6dG1E5EThGbVmwYpsDtwUl8ZYKXu?usp=drive_link" target="_blank">SDF-1</a><br>
+      <a href="https://drive.google.com/drive/folders/1cJhETvpKfNGmSo0Gkb2oltN-J8Gll80U?usp=drive_link" target="_blank">SDF LAB-1</a><br>
+      <a href="https://drive.google.com/drive/folders/1cEQcM3Js7obzPfwZ4DHCyL9au94yjFW-?usp=drive_link" target="_blank">Basic Electronics LAB-1</a><br>
+      <a href="https://drive.google.com/drive/folders/1cEshTw4vg7T7mBIzpzTVjkCDBjCkjBZP?usp=drive_link" target="_blank">PHY LAB-1</a><br>
+      <a href="https://drive.google.com/drive/folders/1cUe-_bPirXYFqgLFMxSYwCmKAGmumaR0?usp=drive_link" target="_blank">Workshop</a><br>
+    </div>
+
+    <div>
+      <h2>Semester 2</h2>
+      <a href="https://drive.google.com/drive/folders/1iOSN5qM15TEJw4jKrMjeddGJvVCpNbmO?usp=drive_link" target="_blank">PHY-2</a><br>
+      <a href="https://drive.google.com/drive/folders/1fs3p4t1mKSWKeCRQYrnI9p8paUcHqZg_?usp=drive_link" target="_blank">PHY LAB-2</a><br>
+      <a href="https://drive.google.com/drive/folders/1JhKnmt4KGeja9qTFsUSbbJohrOjuZHzv?usp=drive_link" target="_blank">MATHS-2</a><br>
+      <a href="https://drive.google.com/drive/folders/1FFULZPmtFEQbj_A3c90Sna-16S2kOAMJ?usp=drive_link" target="_blank">SDF LAB-2</a><br>
+      <a href="https://drive.google.com/drive/folders/148vPtjjr6UEHibnQ378B34SBYzZ5wUjz?usp=drive_link" target="_blank">SDF-2</a><br>
+      <a href="https://drive.google.com/drive/folders/1ebFSmBSI_AYEPGshto_WankaDi2cp9Xa?usp=drive_link" target="_blank">UHV</a><br>
+      <a href="https://drive.google.com/drive/folders/1aXmyPJheMvmB6PXQni9DYZHz_Ir_LXiC?usp=drive_link" target="_blank">EDD</a><br>
+    </div>
+
+    <div class="contribute">
+      <h2>Contribute Your Notes</h2>
+      <p>Have helpful material? <a href="mailto:adityapandey2105@gmail.com">Email us here</a> or contact the admin.</p>
+    </div>
+  </div>
+
+  <!-- Chatbot -->
+  <div style="position: fixed; bottom: 20px; right: 20px; z-index: 999;">
+    <iframe
+      width="350"
+      height="430"
+      allow="microphone;"
+      src="https://bot.dialogflow.com/817ef7d5-ad87-48ad-a5a3-2d729411830f"
+      style="border: none; border-radius: 10px;">
+    </iframe>
+  </div>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/687f8db360e51e191fc553ef/1j0p432dc';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+</body>
+</html>
